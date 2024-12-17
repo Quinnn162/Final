@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+}
+#random {
+    gap: 10px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    img {
+        width: 150px;
+        height: 150px;
+        border: 1px solid;
+    }
+    
+}
+.bet_container {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    div {
+        width: 150px;
+        height: 150px;
+        border: 1px solid;
+        padding: 10px;
+        cursor: pointer;
+        img {
+            width: 100px;
+            height: 100px;
+            
+        }
+    }
+}
+.content {
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    button {
+        width: 80px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: aquamarine;
+        border: none;
+        
+    }
+    span {
+        padding-right: 300px;
+    }
+}
+.button {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    button {
+        width: 80px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: aquamarine;
+        border: none;   
+    }
+}

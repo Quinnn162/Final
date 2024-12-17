@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="gap-[50px]">
+        <div id="random">
+            <span class="result_box" id="result1"><img src="img/bau.png" alt=""></span>
+            <span class="result_box" id="result2"><img src="img/bau.png" alt=""></span>
+            <span class="result_box" id="result3"><img src="img/bau.png" alt=""></span>
+        </div>
+        <div class="button">
+            <button id="spinBtn">Quay</button>
+        </div>
+        <div class="bet_container">
+            <div class="bet-item" data-name="bau">
+                <span class="bet-count">0</span>
+              <img src="img/bau.png" alt="Bầu">
+            </div>
+            <div class="bet-item" data-name="cua">
+                <span class="bet-count">0</span>
+              <img src="img/cua.png" alt="Cua">
+            </div>
+            <div class="bet-item" data-name="tom">
+                <span class="bet-count">0</span>
+              <img src="img/tom.png" alt="Tôm">
+            </div>
+            <div class="bet-item" data-name="ca">
+                <span class="bet-count">0</span>
+              <img src="img/ca.png" alt="Cá">
+            </div>
+            <div class="bet-item" data-name="nai">
+                <span class="bet-count">0</span>
+              <img src="img/huou.png" alt="Nai">
+            </div>
+            <div class="bet-item" data-name="ga">
+                <span class="bet-count">0</span>
+              <img src="img/ga.png" alt="Gà">
+            </div>
+          </div>
+        <div class="content">
+            <span>
+                <p>Lưu ý</p>
+                <p>- Số lần đặt ở "Hình" sẽ là số lần xuất hiện của các "Hình" trên "Kết quả"</p>
+                <p>- Tổng số điểm trong mỗi lần đặt, tối đa là 3đ</p>
+            </span>
+            <div>
+                <button id="resetBtn">Đặt lại</button>
+            </div>
+            
+        </div>
+    </div>
+   <script src="./index.js"></script>
+</body>
+</html>
